@@ -1,0 +1,10 @@
+/tools/
+/.venv-*/
+
+/pokemon-showdown/
+
+/card/build/
+/examples/build/
+__pycache__/
+*.pyc
+node_modules/

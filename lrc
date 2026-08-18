@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+. "$ROOT/scripts/platform.sh"
+PY="$ROOT/.venv-$LRC_PLATFORM/bin/python"
+[ -x "$PY" ] || { echo "no venv for $LRC_PLATFORM - run scripts/bootstrap.sh" >&2; exit 1; }
+exec "$PY" "$ROOT/host/lrc.py" "$@"

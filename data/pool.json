@@ -1,0 +1,4539 @@
+{
+  "types": [
+    "Normal",
+    "Fighting",
+    "Flying",
+    "Poison",
+    "Ground",
+    "Rock",
+    "Bug",
+    "Ghost",
+    "Steel",
+    "Fire",
+    "Water",
+    "Grass",
+    "Electric",
+    "Psychic",
+    "Ice",
+    "Dragon",
+    "Dark",
+    "Fairy"
+  ],
+  "natures": [
+    "Hardy",
+    "Lonely",
+    "Brave",
+    "Adamant",
+    "Naughty",
+    "Bold",
+    "Docile",
+    "Relaxed",
+    "Impish",
+    "Lax",
+    "Timid",
+    "Hasty",
+    "Serious",
+    "Jolly",
+    "Naive",
+    "Modest",
+    "Mild",
+    "Quiet",
+    "Bashful",
+    "Rash",
+    "Calm",
+    "Gentle",
+    "Sassy",
+    "Careful",
+    "Quirky"
+  ],
+  "items": [
+    "Leftovers",
+    "Sitrus Berry",
+    "Focus Sash",
+    "Life Orb",
+    "Assault Vest",
+    "Safety Goggles",
+    "Choice Specs",
+    "Choice Band",
+    "Choice Scarf",
+    "Rocky Helmet",
+    "Clear Amulet",
+    "Covert Cloak",
+    "Expert Belt",
+    "Weakness Policy",
+    "Wide Lens",
+    "Mental Herb"
+  ],
+  "species": [
+    {
+      "name": "Archaludon",
+      "level": 77,
+      "types": [
+        8,
+        15
+      ],
+      "bst": 600,
+      "abilities": [
+        "Stamina"
+      ],
+      "moves": [
+        {
+          "name": "Dragon Pulse",
+          "type": 15,
+          "bp": 85,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Electro Shot",
+          "type": 12,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Flash Cannon",
+          "type": 8,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Body Press",
+          "type": 1,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Aura Sphere",
+          "type": 1,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Armarouge",
+      "level": 80,
+      "types": [
+        9,
+        13
+      ],
+      "bst": 525,
+      "abilities": [
+        "Flash Fire",
+        "Weak Armor"
+      ],
+      "moves": [
+        {
+          "name": "Armor Cannon",
+          "type": 9,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Aura Sphere",
+          "type": 1,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Energy Ball",
+          "type": 11,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Heat Wave",
+          "type": 9,
+          "bp": 95,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Trick Room",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Meteor Beam",
+          "type": 5,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Baxcalibur",
+      "level": 78,
+      "types": [
+        15,
+        14
+      ],
+      "bst": 600,
+      "abilities": [
+        "Thermal Exchange"
+      ],
+      "moves": [
+        {
+          "name": "Glaive Rush",
+          "type": 15,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "High Horsepower",
+          "type": 4,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Shard",
+          "type": 14,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Icicle Crash",
+          "type": 14,
+          "bp": 85,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Icicle Spear",
+          "type": 14,
+          "bp": 25,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Scale Shot",
+          "type": 15,
+          "bp": 25,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Swords Dance",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "level": 83,
+      "types": [
+        10
+      ],
+      "bst": 530,
+      "abilities": [
+        "Torrent"
+      ],
+      "moves": [
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Flip Turn",
+          "type": 10,
+          "bp": 60,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Wave Crash",
+          "type": 10,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Dragon Pulse",
+          "type": 15,
+          "bp": 85,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Muddy Water",
+          "type": 10,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Life Dew",
+          "type": 10,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Chimecho",
+      "level": 94,
+      "types": [
+        13
+      ],
+      "bst": 455,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        {
+          "name": "Encore",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Heal Pulse",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Clefable",
+      "level": 87,
+      "types": [
+        17
+      ],
+      "bst": 483,
+      "abilities": [
+        "Magic Guard",
+        "Unaware"
+      ],
+      "moves": [
+        {
+          "name": "Dazzling Gleam",
+          "type": 17,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Moonblast",
+          "type": 17,
+          "bp": 95,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Follow Me",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Cobalion",
+      "level": 79,
+      "types": [
+        8,
+        1
+      ],
+      "bst": 580,
+      "abilities": [
+        "Justified"
+      ],
+      "moves": [
+        {
+          "name": "Body Press",
+          "type": 1,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Coaching",
+          "type": 1,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Iron Head",
+          "type": 8,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Volt Switch",
+          "type": 12,
+          "bp": 70,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Heavy Slam",
+          "type": 8,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Iron Defense",
+          "type": 8,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Copperajah",
+      "level": 86,
+      "types": [
+        8
+      ],
+      "bst": 500,
+      "abilities": [
+        "Sheer Force",
+        "Heavy Metal"
+      ],
+      "moves": [
+        {
+          "name": "High Horsepower",
+          "type": 4,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Iron Head",
+          "type": 8,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Play Rough",
+          "type": 17,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Rock Slide",
+          "type": 5,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Heat Crash",
+          "type": 9,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Heavy Slam",
+          "type": 8,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Stone Edge",
+          "type": 5,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Delibird",
+      "level": 100,
+      "types": [
+        14,
+        2
+      ],
+      "bst": 330,
+      "abilities": [
+        "Insomnia",
+        "Vital Spirit",
+        "Hustle"
+      ],
+      "moves": [
+        {
+          "name": "Brave Bird",
+          "type": 2,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Drill Run",
+          "type": 4,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Foul Play",
+          "type": 16,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Shard",
+          "type": 14,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Spinner",
+          "type": 14,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        }
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "level": 79,
+      "types": [
+        15,
+        7
+      ],
+      "bst": 600,
+      "abilities": [
+        "Clear Body"
+      ],
+      "moves": [
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Dragon Darts",
+          "type": 15,
+          "bp": 50,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Shadow Ball",
+          "type": 7,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Dragon Claw",
+          "type": 15,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Phantom Force",
+          "type": 7,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "U-turn",
+          "type": 6,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "level": 82,
+      "types": [
+        15,
+        2
+      ],
+      "bst": 600,
+      "abilities": [
+        "Inner Focus"
+      ],
+      "moves": [
+        {
+          "name": "Dragon Claw",
+          "type": 15,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Extreme Speed",
+          "type": 0,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Punch",
+          "type": 9,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Iron Head",
+          "type": 8,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Low Kick",
+          "type": 1,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Stomping Tantrum",
+          "type": 4,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Electrode",
+      "level": 89,
+      "types": [
+        12
+      ],
+      "bst": 490,
+      "abilities": [
+        "Aftermath",
+        "Soundproof",
+        "Static"
+      ],
+      "moves": [
+        {
+          "name": "Electroweb",
+          "type": 12,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Foul Play",
+          "type": 16,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Volt Switch",
+          "type": 12,
+          "bp": 70,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Electrode-Hisui",
+      "level": 88,
+      "types": [
+        12,
+        11
+      ],
+      "bst": 490,
+      "abilities": [
+        "Aftermath",
+        "Soundproof",
+        "Static"
+      ],
+      "moves": [
+        {
+          "name": "Electroweb",
+          "type": 12,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Energy Ball",
+          "type": 11,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Leaf Storm",
+          "type": 11,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Volt Switch",
+          "type": 12,
+          "bp": 70,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Foul Play",
+          "type": 16,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Eternatus",
+      "level": 70,
+      "types": [
+        3,
+        15
+      ],
+      "bst": 690,
+      "abilities": [
+        "Pressure"
+      ],
+      "moves": [
+        {
+          "name": "Dynamax Cannon",
+          "type": 15,
+          "bp": 100,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Flamethrower",
+          "type": 9,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Sludge Bomb",
+          "type": 3,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Meteor Beam",
+          "type": 5,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Cosmic Power",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Recover",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Furret",
+      "level": 99,
+      "types": [
+        0
+      ],
+      "bst": 415,
+      "abilities": [
+        "Frisk"
+      ],
+      "moves": [
+        {
+          "name": "Double-Edge",
+          "type": 0,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Tidy Up",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Body Slam",
+          "type": 0,
+          "bp": 85,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Follow Me",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "U-turn",
+          "type": 6,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Gholdengo",
+      "level": 78,
+      "types": [
+        8,
+        7
+      ],
+      "bst": 550,
+      "abilities": [
+        "Good as Gold"
+      ],
+      "moves": [
+        {
+          "name": "Dazzling Gleam",
+          "type": 17,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Focus Blast",
+          "type": 1,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Make It Rain",
+          "type": 8,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Shadow Ball",
+          "type": 7,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Nasty Plot",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Giratina",
+      "level": 76,
+      "types": [
+        7,
+        15
+      ],
+      "bst": 680,
+      "abilities": [
+        "Pressure"
+      ],
+      "moves": [
+        {
+          "name": "Aura Sphere",
+          "type": 1,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Shadow Ball",
+          "type": 7,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Breaking Swipe",
+          "type": 15,
+          "bp": 60,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Calm Mind",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Rest",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Gliscor",
+      "level": 82,
+      "types": [
+        4,
+        2
+      ],
+      "bst": 510,
+      "abilities": [
+        "Poison Heal"
+      ],
+      "moves": [
+        {
+          "name": "Dual Wingbeat",
+          "type": 2,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "High Horsepower",
+          "type": 4,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Earthquake",
+          "type": 4,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Facade",
+          "type": 0,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Tailwind",
+          "type": 2,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Toxic",
+          "type": 3,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Goodra",
+      "level": 86,
+      "types": [
+        15
+      ],
+      "bst": 600,
+      "abilities": [
+        "Sap Sipper"
+      ],
+      "moves": [
+        {
+          "name": "Breaking Swipe",
+          "type": 15,
+          "bp": 60,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Power Whip",
+          "type": 11,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Scald",
+          "type": 10,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Sludge Bomb",
+          "type": 3,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Goodra-Hisui",
+      "level": 81,
+      "types": [
+        8,
+        15
+      ],
+      "bst": 600,
+      "abilities": [
+        "Sap Sipper"
+      ],
+      "moves": [
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Dragon Tail",
+          "type": 15,
+          "bp": 60,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Heavy Slam",
+          "type": 8,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Hydro Pump",
+          "type": 10,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Body Press",
+          "type": 1,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Grafaiai",
+      "level": 88,
+      "types": [
+        3,
+        0
+      ],
+      "bst": 485,
+      "abilities": [
+        "Prankster",
+        "Poison Touch"
+      ],
+      "moves": [
+        {
+          "name": "Encore",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Gunk Shot",
+          "type": 3,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Parting Shot",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Super Fang",
+          "type": 0,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "U-turn",
+          "type": 6,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "level": 80,
+      "types": [
+        10,
+        2
+      ],
+      "bst": 540,
+      "abilities": [
+        "Intimidate"
+      ],
+      "moves": [
+        {
+          "name": "Earthquake",
+          "type": 4,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Temper Flare",
+          "type": 9,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Waterfall",
+          "type": 10,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Dragon Dance",
+          "type": 15,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        }
+      ]
+    },
+    {
+      "name": "Hariyama",
+      "level": 85,
+      "types": [
+        1
+      ],
+      "bst": 474,
+      "abilities": [
+        "Guts",
+        "Thick Fat"
+      ],
+      "moves": [
+        {
+          "name": "Bullet Punch",
+          "type": 8,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Close Combat",
+          "type": 1,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Facade",
+          "type": 0,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Headlong Rush",
+          "type": 4,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Feint",
+          "type": 0,
+          "bp": 30,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Heavy Slam",
+          "type": 8,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Hoopa-Unbound",
+      "level": 80,
+      "types": [
+        13,
+        16
+      ],
+      "bst": 680,
+      "abilities": [
+        "Magician"
+      ],
+      "moves": [
+        {
+          "name": "Drain Punch",
+          "type": 1,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Gunk Shot",
+          "type": 3,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Hyperspace Fury",
+          "type": 16,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": 13,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Focus Blast",
+          "type": 1,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Indeedee",
+      "level": 79,
+      "types": [
+        13,
+        0
+      ],
+      "bst": 475,
+      "abilities": [
+        "Psychic Surge"
+      ],
+      "moves": [
+        {
+          "name": "Encore",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Expanding Force",
+          "type": 13,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Hyper Voice",
+          "type": 0,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Shadow Ball",
+          "type": 7,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Psyshock",
+          "type": 13,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Iron Hands",
+      "level": 77,
+      "types": [
+        1,
+        12
+      ],
+      "bst": 570,
+      "abilities": [
+        "Quark Drive"
+      ],
+      "moves": [
+        {
+          "name": "Close Combat",
+          "type": 1,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Drain Punch",
+          "type": 1,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Punch",
+          "type": 14,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Volt Switch",
+          "type": 12,
+          "bp": 70,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Wild Charge",
+          "type": 12,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunder Punch",
+          "type": 12,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Jirachi",
+      "level": 80,
+      "types": [
+        8,
+        13
+      ],
+      "bst": 600,
+      "abilities": [
+        "Serene Grace"
+      ],
+      "moves": [
+        {
+          "name": "Iron Head",
+          "type": 8,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Life Dew",
+          "type": 10,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "U-turn",
+          "type": 6,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Kommo-o",
+      "level": 79,
+      "types": [
+        15,
+        1
+      ],
+      "bst": 600,
+      "abilities": [
+        "Bulletproof",
+        "Soundproof"
+      ],
+      "moves": [
+        {
+          "name": "Clanging Scales",
+          "type": 15,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Clangorous Soul",
+          "type": 15,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Drain Punch",
+          "type": 1,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Iron Head",
+          "type": 8,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Body Press",
+          "type": 1,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Iron Defense",
+          "type": 8,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Throat Chop",
+          "type": 16,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Latias",
+      "level": 80,
+      "types": [
+        15,
+        13
+      ],
+      "bst": 600,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Mist Ball",
+          "type": 13,
+          "bp": 95,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Recover",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Tailwind",
+          "type": 2,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Aura Sphere",
+          "type": 1,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Calm Mind",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Dragon Pulse",
+          "type": 15,
+          "bp": 85,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Lilligant",
+      "level": 88,
+      "types": [
+        11
+      ],
+      "bst": 480,
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "moves": [
+        {
+          "name": "Giga Drain",
+          "type": 11,
+          "bp": 75,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Quiver Dance",
+          "type": 6,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Alluring Voice",
+          "type": 17,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Energy Ball",
+          "type": 11,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Pollen Puff",
+          "type": 6,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Sleep Powder",
+          "type": 11,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Ludicolo",
+      "level": 89,
+      "types": [
+        10,
+        11
+      ],
+      "bst": 480,
+      "abilities": [
+        "Swift Swim"
+      ],
+      "moves": [
+        {
+          "name": "Energy Ball",
+          "type": 11,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Muddy Water",
+          "type": 10,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Rain Dance",
+          "type": 10,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Hydro Pump",
+          "type": 10,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Leaf Storm",
+          "type": 11,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Lunala",
+      "level": 71,
+      "types": [
+        13,
+        7
+      ],
+      "bst": 680,
+      "abilities": [
+        "Shadow Shield"
+      ],
+      "moves": [
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Moongeist Beam",
+          "type": 7,
+          "bp": 100,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Meteor Beam",
+          "type": 5,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Moonblast",
+          "type": 17,
+          "bp": 95,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Moonlight",
+          "type": 17,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Tailwind",
+          "type": 2,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Wide Guard",
+          "type": 5,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Magmortar",
+      "level": 83,
+      "types": [
+        9
+      ],
+      "bst": 540,
+      "abilities": [
+        "Flame Body"
+      ],
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Focus Blast",
+          "type": 1,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Heat Wave",
+          "type": 9,
+          "bp": 95,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Follow Me",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Will-O-Wisp",
+          "type": 9,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Mandibuzz",
+      "level": 85,
+      "types": [
+        16,
+        2
+      ],
+      "bst": 510,
+      "abilities": [
+        "Overcoat"
+      ],
+      "moves": [
+        {
+          "name": "Foul Play",
+          "type": 16,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "U-turn",
+          "type": 6,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Brave Bird",
+          "type": 2,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Roost",
+          "type": 2,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Tailwind",
+          "type": 2,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Meloetta",
+      "level": 80,
+      "types": [
+        0,
+        13
+      ],
+      "bst": 600,
+      "abilities": [
+        "Serene Grace"
+      ],
+      "moves": [
+        {
+          "name": "Focus Blast",
+          "type": 1,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Hyper Voice",
+          "type": 0,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "U-turn",
+          "type": 6,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Close Combat",
+          "type": 1,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Relic Song",
+          "type": 0,
+          "bp": 75,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Metagross",
+      "level": 80,
+      "types": [
+        8,
+        13
+      ],
+      "bst": 600,
+      "abilities": [
+        "Clear Body"
+      ],
+      "moves": [
+        {
+          "name": "Bullet Punch",
+          "type": 8,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Hammer Arm",
+          "type": 1,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Heavy Slam",
+          "type": 8,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Psychic Fangs",
+          "type": 13,
+          "bp": 85,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Stomping Tantrum",
+          "type": 4,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Agility",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Mew",
+      "level": 84,
+      "types": [
+        13
+      ],
+      "bst": 600,
+      "abilities": [
+        "Synchronize"
+      ],
+      "moves": [
+        {
+          "name": "Pollen Puff",
+          "type": 6,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Coaching",
+          "type": 1,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Encore",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Tailwind",
+          "type": 2,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Will-O-Wisp",
+          "type": 9,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Mismagius",
+      "level": 88,
+      "types": [
+        7
+      ],
+      "bst": 495,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        {
+          "name": "Dazzling Gleam",
+          "type": 17,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Mystical Fire",
+          "type": 9,
+          "bp": 75,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Shadow Ball",
+          "type": 7,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Will-O-Wisp",
+          "type": 9,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Muk",
+      "level": 86,
+      "types": [
+        3
+      ],
+      "bst": 500,
+      "abilities": [
+        "Poison Touch"
+      ],
+      "moves": [
+        {
+          "name": "Drain Punch",
+          "type": 1,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Gunk Shot",
+          "type": 3,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Ice Punch",
+          "type": 14,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Poison Jab",
+          "type": 3,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Shadow Sneak",
+          "type": 7,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Toxic Spikes",
+          "type": 3,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Muk-Alola",
+      "level": 82,
+      "types": [
+        3,
+        16
+      ],
+      "bst": 500,
+      "abilities": [
+        "Poison Touch"
+      ],
+      "moves": [
+        {
+          "name": "Drain Punch",
+          "type": 1,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Gunk Shot",
+          "type": 3,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Ice Punch",
+          "type": 14,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Poison Jab",
+          "type": 3,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Necrozma",
+      "level": 80,
+      "types": [
+        13
+      ],
+      "bst": 600,
+      "abilities": [
+        "Prism Armor"
+      ],
+      "moves": [
+        {
+          "name": "Brick Break",
+          "type": 1,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Dragon Dance",
+          "type": 15,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Photon Geyser",
+          "type": 13,
+          "bp": 100,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Earth Power",
+          "type": 4,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Meteor Beam",
+          "type": 5,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Calm Mind",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Persian-Alola",
+      "level": 87,
+      "types": [
+        16
+      ],
+      "bst": 440,
+      "abilities": [
+        "Fur Coat"
+      ],
+      "moves": [
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Foul Play",
+          "type": 16,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Parting Shot",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Politoed",
+      "level": 82,
+      "types": [
+        10
+      ],
+      "bst": 500,
+      "abilities": [
+        "Drizzle"
+      ],
+      "moves": [
+        {
+          "name": "Hydro Pump",
+          "type": 10,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Beam",
+          "type": 14,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Muddy Water",
+          "type": 10,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Weather Ball",
+          "type": 0,
+          "bp": 50,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Encore",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Hypnosis",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Porygon2",
+      "level": 82,
+      "types": [
+        0
+      ],
+      "bst": 515,
+      "abilities": [
+        "Download"
+      ],
+      "moves": [
+        {
+          "name": "Ice Beam",
+          "type": 14,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Recover",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick Room",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Tri Attack",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Shadow Ball",
+          "type": 7,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Raging Bolt",
+      "level": 77,
+      "types": [
+        12,
+        15
+      ],
+      "bst": 590,
+      "abilities": [
+        "Protosynthesis"
+      ],
+      "moves": [
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderclap",
+          "type": 12,
+          "bp": 70,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Electroweb",
+          "type": 12,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Calm Mind",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Dragon Pulse",
+          "type": 15,
+          "bp": 85,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Raichu",
+      "level": 87,
+      "types": [
+        12
+      ],
+      "bst": 485,
+      "abilities": [
+        "Lightning Rod"
+      ],
+      "moves": [
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Grass Knot",
+          "type": 11,
+          "bp": 0,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Nuzzle",
+          "type": 12,
+          "bp": 20,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Encore",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Raichu-Alola",
+      "level": 89,
+      "types": [
+        12,
+        13
+      ],
+      "bst": 485,
+      "abilities": [
+        "Surge Surfer"
+      ],
+      "moves": [
+        {
+          "name": "Alluring Voice",
+          "type": 17,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Focus Blast",
+          "type": 1,
+          "bp": 120,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Grass Knot",
+          "type": 11,
+          "bp": 0,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Volt Switch",
+          "type": 12,
+          "bp": 70,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Nasty Plot",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Raikou",
+      "level": 81,
+      "types": [
+        12
+      ],
+      "bst": 580,
+      "abilities": [
+        "Inner Focus"
+      ],
+      "moves": [
+        {
+          "name": "Scald",
+          "type": 10,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Shadow Ball",
+          "type": 7,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Volt Switch",
+          "type": 12,
+          "bp": 70,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Electroweb",
+          "type": 12,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Calm Mind",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Rayquaza",
+      "level": 75,
+      "types": [
+        15,
+        2
+      ],
+      "bst": 680,
+      "abilities": [
+        "Air Lock"
+      ],
+      "moves": [
+        {
+          "name": "Dragon Ascent",
+          "type": 2,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Earthquake",
+          "type": 4,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Extreme Speed",
+          "type": 0,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Draco Meteor",
+          "type": 15,
+          "bp": 130,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Earth Power",
+          "type": 4,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Dragon Dance",
+          "type": 15,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Sableye",
+      "level": 92,
+      "types": [
+        16,
+        7
+      ],
+      "bst": 380,
+      "abilities": [
+        "Prankster"
+      ],
+      "moves": [
+        {
+          "name": "Disable",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Encore",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Fake Out",
+          "type": 0,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Foul Play",
+          "type": 16,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Quash",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Will-O-Wisp",
+          "type": 9,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Samurott",
+      "level": 89,
+      "types": [
+        10
+      ],
+      "bst": 528,
+      "abilities": [
+        "Torrent"
+      ],
+      "moves": [
+        {
+          "name": "Aqua Jet",
+          "type": 10,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Flip Turn",
+          "type": 10,
+          "bp": 60,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Hydro Pump",
+          "type": 10,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Beam",
+          "type": 14,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Megahorn",
+          "type": 6,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Sacred Sword",
+          "type": 1,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Liquidation",
+          "type": 10,
+          "bp": 85,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Sandslash",
+      "level": 93,
+      "types": [
+        4
+      ],
+      "bst": 450,
+      "abilities": [
+        "Sand Rush"
+      ],
+      "moves": [
+        {
+          "name": "Gunk Shot",
+          "type": 3,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "High Horsepower",
+          "type": 4,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Rapid Spin",
+          "type": 0,
+          "bp": 50,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Stone Edge",
+          "type": 5,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Rock Slide",
+          "type": 5,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Super Fang",
+          "type": 0,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Skuntank",
+      "level": 85,
+      "types": [
+        3,
+        16
+      ],
+      "bst": 479,
+      "abilities": [
+        "Aftermath"
+      ],
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Gunk Shot",
+          "type": 3,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Poison Gas",
+          "type": 3,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Sucker Punch",
+          "type": 16,
+          "bp": 70,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Toxic Spikes",
+          "type": 3,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Slowbro",
+      "level": 88,
+      "types": [
+        10,
+        13
+      ],
+      "bst": 490,
+      "abilities": [
+        "Regenerator"
+      ],
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Heal Pulse",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Scald",
+          "type": 10,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick Room",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Hydro Pump",
+          "type": 10,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Beam",
+          "type": 14,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Slowking",
+      "level": 88,
+      "types": [
+        10,
+        13
+      ],
+      "bst": 490,
+      "abilities": [
+        "Regenerator"
+      ],
+      "moves": [
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Heal Pulse",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Helping Hand",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Scald",
+          "type": 10,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick Room",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Hydro Pump",
+          "type": 10,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Ice Beam",
+          "type": 14,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "level": 84,
+      "types": [
+        0
+      ],
+      "bst": 540,
+      "abilities": [
+        "Thick Fat",
+        "Gluttony"
+      ],
+      "moves": [
+        {
+          "name": "Body Slam",
+          "type": 0,
+          "bp": 85,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Crunch",
+          "type": 16,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Double-Edge",
+          "type": 0,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Hammer Arm",
+          "type": 1,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Heat Crash",
+          "type": 9,
+          "bp": 0,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "High Horsepower",
+          "type": 4,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Tauros-Paldea-Aqua",
+      "level": 80,
+      "types": [
+        1,
+        10
+      ],
+      "bst": 490,
+      "abilities": [
+        "Intimidate"
+      ],
+      "moves": [
+        {
+          "name": "Aqua Jet",
+          "type": 10,
+          "bp": 40,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Bulk Up",
+          "type": 1,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Close Combat",
+          "type": 1,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Liquidation",
+          "type": 10,
+          "bp": 85,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Wave Crash",
+          "type": 10,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Wild Charge",
+          "type": 12,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": 13,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Tauros-Paldea-Blaze",
+      "level": 79,
+      "types": [
+        1,
+        9
+      ],
+      "bst": 490,
+      "abilities": [
+        "Intimidate"
+      ],
+      "moves": [
+        {
+          "name": "Close Combat",
+          "type": 1,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Raging Bull",
+          "type": 0,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Flare Blitz",
+          "type": 9,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Rock Slide",
+          "type": 5,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Stone Edge",
+          "type": 5,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Wild Charge",
+          "type": 12,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Bulk Up",
+          "type": 1,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Tauros-Paldea-Combat",
+      "level": 82,
+      "types": [
+        1
+      ],
+      "bst": 490,
+      "abilities": [
+        "Intimidate"
+      ],
+      "moves": [
+        {
+          "name": "Raging Bull",
+          "type": 0,
+          "bp": 90,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Stone Edge",
+          "type": 5,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Close Combat",
+          "type": 1,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "High Horsepower",
+          "type": 4,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Iron Head",
+          "type": 8,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Rock Slide",
+          "type": 5,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Throat Chop",
+          "type": 16,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Thundurus",
+      "level": 79,
+      "types": [
+        12,
+        2
+      ],
+      "bst": 580,
+      "abilities": [
+        "Prankster",
+        "Defiant"
+      ],
+      "moves": [
+        {
+          "name": "Grass Knot",
+          "type": 11,
+          "bp": 0,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Snarl",
+          "type": 16,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Acrobatics",
+          "type": 2,
+          "bp": 55,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Wildbolt Storm",
+          "type": 12,
+          "bp": 100,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Tera Blast",
+          "type": 0,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "level": 81,
+      "types": [
+        5,
+        16
+      ],
+      "bst": 600,
+      "abilities": [
+        "Sand Stream"
+      ],
+      "moves": [
+        {
+          "name": "Dragon Dance",
+          "type": 15,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "High Horsepower",
+          "type": 4,
+          "bp": 95,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Knock Off",
+          "type": 16,
+          "bp": 65,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Rock Slide",
+          "type": 5,
+          "bp": 75,
+          "cat": "Physical",
+          "targetClass": 0
+        },
+        {
+          "name": "Stone Edge",
+          "type": 5,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Icy Wind",
+          "type": 14,
+          "bp": 55,
+          "cat": "Special",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Weezing-Galar",
+      "level": 89,
+      "types": [
+        3,
+        17
+      ],
+      "bst": 490,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        {
+          "name": "Gunk Shot",
+          "type": 3,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Poison Gas",
+          "type": 3,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Strange Steam",
+          "type": 17,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Taunt",
+          "type": 16,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Will-O-Wisp",
+          "type": 9,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Dazzling Gleam",
+          "type": 17,
+          "bp": 80,
+          "cat": "Special",
+          "targetClass": 0
+        },
+        {
+          "name": "Fire Blast",
+          "type": 9,
+          "bp": 110,
+          "cat": "Special",
+          "targetClass": 1
+        }
+      ]
+    },
+    {
+      "name": "Wyrdeer",
+      "level": 85,
+      "types": [
+        0,
+        13
+      ],
+      "bst": 525,
+      "abilities": [
+        "Intimidate"
+      ],
+      "moves": [
+        {
+          "name": "Body Slam",
+          "type": 0,
+          "bp": 85,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Double-Edge",
+          "type": 0,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Earth Power",
+          "type": 4,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Psychic",
+          "type": 13,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunder Wave",
+          "type": 12,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 1
+        },
+        {
+          "name": "Thunderbolt",
+          "type": 12,
+          "bp": 90,
+          "cat": "Special",
+          "targetClass": 1
+        },
+        {
+          "name": "Trick Room",
+          "type": 13,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    },
+    {
+      "name": "Zamazenta",
+      "level": 72,
+      "types": [
+        1
+      ],
+      "bst": 660,
+      "abilities": [
+        "Dauntless Shield"
+      ],
+      "moves": [
+        {
+          "name": "Close Combat",
+          "type": 1,
+          "bp": 120,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Coaching",
+          "type": 1,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 2
+        },
+        {
+          "name": "Crunch",
+          "type": 16,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Howl",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Stone Edge",
+          "type": 5,
+          "bp": 100,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Body Press",
+          "type": 1,
+          "bp": 80,
+          "cat": "Physical",
+          "targetClass": 1
+        },
+        {
+          "name": "Iron Defense",
+          "type": 8,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        },
+        {
+          "name": "Protect",
+          "type": 0,
+          "bp": 0,
+          "cat": "Status",
+          "targetClass": 0
+        }
+      ]
+    }
+  ]
+}
