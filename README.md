@@ -1,20 +1,14 @@
-# Smartcard Workshop — lrcmon
+# Smartcard Workshop
 
-Pokémon that live on Java Cards. Your card hatches a team of 6 and fights
-bring-6/pick-4 Gen 9 doubles on a local Showdown server; every move is decided
-on-card by a strategy applet you write. Everyone runs a real card (NXP J3R180)
-in a PC/SC reader.
-
-## Setup (once per machine)
+## Setup
 
     ./setup.sh
 
-Needs `bash curl git make tar xz python3-venv` and a PC/SC reader with `pcscd`
-running (Linux/WSL: `libpcsclite-dev swig pcscd`; WSL also needs usbipd-win to
-pass the reader through — macOS PC/SC is built in).
+Needs `bash curl git make tar xz python3-venv`
+Linux/WSL: `libpcsclite-dev swig pcscd`
+WSL also needs usbipd-win to pass the reader through (probably?)
 
-`java -jar tools/gp.jar` needs Java 11+; if your system lacks it, use the one
-`setup.sh` vendored at `tools/<platform>/jdk11/bin/java`.
+`java -jar tools/gp.jar` needs Java 11+; if your system lacks it, use the one `setup.sh` provides at `tools/<platform>/jdk11/bin/java`
 
 ## Exercise 0 — Hello, world (smoke-test card + toolchain)
 
@@ -26,7 +20,7 @@ Expect `48656C6C6F2C20776F726C6421 9000`. Same thing over pyscard:
 
     .venv-*/bin/python examples/hello/hello.py         # -> Hello, world! 9000
 
-## Exercise 1 — Hatch a team and battle
+## Exercise 1 — Battle!
 
     make install                                       # flash the applets; card in reader 0
     ./lrc setup                                        # name, hatch 6, spend rerolls

@@ -63,4 +63,4 @@ if [ -f pokemon-showdown/node_modules/esbuild/package.json ]; then
 fi
 
 make caps simclasses
-echo "done - try: make server, then ./lrc battle --hatch"
+echo "done - smoke-test it: make hello"
